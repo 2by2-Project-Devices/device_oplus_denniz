@@ -21,8 +21,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile
 $(call inherit-product, device/oplus/denniz/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common 2by2 stuff.
+$(call inherit-product, vendor/2by2/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_denniz
@@ -31,9 +31,8 @@ PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := OnePlus Nord 2 5G
 PRODUCT_MANUFACTURER := OnePlus
 
-# Maintainer info
-CUSTOM_BUILD_TYPE := OFFICIAL
-CUSTOM_MAINTAINER := lahaina
+# Device info
+CUSTOM_PROCESSOR_INFO := MediaTek Dimensity 1200-AI
 
 # Build info
 BUILD_FINGERPRINT := "OnePlus/DN2103EEA/OP515BL1:13/TP1A.220905.001/R.108b2c1-1:user/release-keys"

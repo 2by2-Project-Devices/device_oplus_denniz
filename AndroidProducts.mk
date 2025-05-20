@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_denniz.mk
+    $(LOCAL_DIR)/denniz.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_denniz-user \
-    lineage_denniz-userdebug \
-    lineage_denniz-eng
+    denniz-user \
+    denniz-userdebug \
+    denniz-eng
